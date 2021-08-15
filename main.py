@@ -66,7 +66,7 @@ if OP == 1:
             for q in range(len(LST)):
                 if digest == LST[q]:
                     print(f'{digest}: {Subset}')
-                    winsound.PlaySound('win-1', winsound.SND_FILENAME)
+                    winsound.PlaySound('win-2', winsound.SND_FILENAME)
                     stop = True
                     break
                 c = c + 1
@@ -126,7 +126,7 @@ elif OP == 2:
         for q in range(len(LST)):
                 if digest == LST[q]:
                     print(f'{digest}: {word}', end = '')
-                    winsound.PlaySound('win-1', winsound.SND_FILENAME)
+                    winsound.PlaySound('win-2', winsound.SND_FILENAME)
                     G += 1
                     if G == len(LST):
                         stop = True
