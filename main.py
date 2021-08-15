@@ -12,14 +12,15 @@ r = 0
 LST = []
 stop = False
 PH = True
-while PH != '':
+int(num) = input('how many hashes you want to crack?')
+for i ing range(num):
     PH = input('Enter hash (md5, sha1, sha224, sha256, sha384, sha512): ')
     if PH == '':
         break
     LST.append(PH)
     RB = open("Rainbow.txt", "r")
     RB = RB.read()
-    if PH in RB[r]:
+    if PH in RB[i]:
         input('Pleas check the Rainbow.txt file \nEnter to close this')
         exit()
     if len(PH) == 32:
@@ -37,7 +38,6 @@ while PH != '':
     else:
         print('check you are copied all the symboles and this hash suported')
         quit()
-    r += 1
 
 OP = int(input('crack by word generator(1) or by file(2)?: '))
 
@@ -66,7 +66,7 @@ if OP == 1:
             for q in range(len(LST)):
                 if digest == LST[q]:
                     print(f'{digest}: {Subset}')
-                    winsound.PlaySound('win-2', winsound.SND_FILENAME)
+                    winsound.PlaySound('win-1', winsound.SND_FILENAME)
                     stop = True
                     break
                 c = c + 1
@@ -126,7 +126,7 @@ elif OP == 2:
         for q in range(len(LST)):
                 if digest == LST[q]:
                     print(f'{digest}: {word}', end = '')
-                    winsound.PlaySound('win-2', winsound.SND_FILENAME)
+                    winsound.PlaySound('win-1', winsound.SND_FILENAME)
                     G += 1
                     if G == len(LST):
                         stop = True
@@ -165,4 +165,6 @@ elif OP == 2:
         
     print(f'{c} possible passwords was checked in {Atime} {M}')
 input('press Enter to continue')
+
+
 
