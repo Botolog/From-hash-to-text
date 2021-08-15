@@ -12,9 +12,10 @@ r = 0
 LST = []
 stop = False
 PH = True
-int(num) = input('how many hashes you want to crack?')
-for i ing range(num):
-    PH = input('Enter hash (md5, sha1, sha224, sha256, sha384, sha512): ')
+num = int(input('how many hashes you want to crack: '))
+print('suported types: md5, sha1, sha224, sha256, sha384, sha512')
+for i in range(num):
+    PH = input('Enter hash: ')
     if PH == '':
         break
     LST.append(PH)
@@ -165,6 +166,4 @@ elif OP == 2:
         
     print(f'{c} possible passwords was checked in {Atime} {M}')
 input('press Enter to continue')
-
-
 
