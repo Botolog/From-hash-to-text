@@ -1,0 +1,25 @@
+Password            |Hash
+-----------------------------------------------------------------------------------------
+#####               |Example
+hello               |5d41402abc4b2a76b9719d911017c592
+123456              |e10adc3949ba59abbe56e057f20f883e
+1234                |81dc9bdb52d04dc20036dbd8313ed055
+pass                |1a1dc91c907325c69271ddf0c944bc72
+password            |5f4dcc3b5aa765d61d8327deb882cf99
+Password1           |2ac9cb7dc02b3c0083eb70898e549b63
+ricardo             |6720720054e9d24fbf6c20a831ff287e
+Hello               |8b1a9953c4611296a827abf8c47804d7
+LoveYou             |52343e4d65de967559e950092e5b42c9
+00000               |dcddb75469b4b4875094e14561e573d8
+1234567             |fcea920f7412b5da7be0cf42b8c93759
+Bruh                |4cdb5fb301adeb87064a168c2bcd7f08
+hell                |4229d691b07b13341da53f17ab9f2416
+world               |7d793037a0760186574b0282f2f435e7
+well                |f9323f5b51fc23e30c10623bd38de6ff
+0123456789          |781e5e245d69b566979b86e28d23f2c7
+01234               |4100c4d44da9177247e44a5fc1546778
+ARYUK               |271567d1f2dff2c08a31dc84c73df24d
+Im123               |84d0d4a83b5b5604103ab245911cbfe8
+thepass             |ba3c83348bddf7b368b478ac06d3340e
+YRUGay              |b0e027d64e20734e2c410b4fac7a5710
+0123                |eb62f6b9306db575c2d596b1279627a4
